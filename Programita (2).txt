@@ -1,0 +1,130 @@
+Func <NumEntero> Pruprueba $ 
+
+<Entero> a =! 5 ; 
+
+<Entero> b =! 10 ;
+
+<NumEntero> o =! 10 ; 
+
+<Cadena> K =! "Juan" ; 
+
+<Buliado> p =! 0 ; 
+
+<Decimal> l =! 5.8 ; 
+
+<Entero> c =! 15 ;
+
+<Cadena> Juan =! "Hola	mundo" ; 
+<Cadena> Pancho =! "MUESTRA	OPCION	A" ;
+<Cadena> Ana =! "MUESTRA	OPCION	B" ;
+<Cadena> Diego =! "MUESTRA	OPCION	C" ;
+
+<Entero> d =! 4 ;
+<Entero> e =! 5 ;
+<Entero> f =! 6 ;
+<Entero> g =! 7 ;
+<Decimal> h =! 2.3 ;
+<Decimal> i =! 5.3 ;
+<Decimal> j =! 25 ;
+<Decimal> m =! 7.45 ;
+<Decimal> n =! 8655.876 ;
+<Entero> q =! 43 ;
+<Entero> r =! 75 ;
+<Entero> s =! 82 ;
+<Entero> t =! 76 ;
+<Entero> u =! 0 ;
+<Entero> v =! 0 ;
+<Entero> w =! 0 ;
+<Decimal> x =! 0 ;
+<Decimal> y =! 0 ;
+<Decimal> z =! 0 ;
+
+Hayteva>> c ; 
+Dime<< c;
+Hayteva>> c ; 
+
+u =! a;
+x =! b;
+v =! c;
+w =! c+n+t;
+y =! o+m/r;
+Juan =! Juan + K;
+
+
+Adios;
+
+$$
+
+
+Func <NumEntero> Muestraresultados $ 
+
+Hayteva>> c ; 
+Hayteva>> u ;
+Hayteva>> c ;  
+Hayteva>> x ;
+Hayteva>> v ;
+Hayteva>> c ; 
+Hayteva>> w ;
+Hayteva>> c ; 
+Hayteva>> y ;
+Hayteva>> p ;
+Hayteva>> Juan ;
+Hayteva>> c ; 
+
+Adios;
+
+$$
+
+
+Func <NumEntero> Pruebamufasa$ 
+
+Mufasa ( <Entero> I =! 0 ; I >=! c; I++)
+Hayteva>> z;
+z =! z+1;
+Adios;
+$$
+
+
+Adios;
+$$
+
+
+Func <NumEntero> Imprimirmufasa$ 
+Hayteva>> z;
+Hayteva>> c;
+Hayteva>> e;
+Adios;
+$$
+
+Func <NumEntero> Cataprueba$ 
+
+Cataficcia (z)
+   $ 
+      Escoge  z>=!  a; :
+        $ 
+        Juan =! Pancho ;
+        Adios;
+$$
+
+      Escoge  z<=!  b; :
+        $ 
+Juan =! Ana ;
+        Adios;
+        $$
+
+      Escoge  z=!=! c ; :
+        $ 
+Juan =! Diego;
+        Adios;
+        $$
+    
+   $$
+	  
+
+Adios;
+$$
+
+Func <NumEntero> Capturacataficcia$ 
+Hayteva>> Juan ;
+Adios;
+$$
